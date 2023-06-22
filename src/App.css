@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80vw;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+header {
+  height: 15rem;
+  background-color: red;
+  width: 100%;
+}
+
+.menu-side {
+  display: flex;
+  width: 100%;
+}
+
+.menu-left {
+  width: 50%;
+  background-color: blue;
+}
+
+.menu-right {
+  width: 50%;
+  background: green;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+
+
+.menu-search {
+  height: 40rem;
+  background: purple;
+}
+
+footer {
+  height: 99rem;
+  background-color: yellow;
+}
