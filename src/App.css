@@ -14,13 +14,32 @@
   flex-direction: column;
   
 }
-#AC{
-  margin-left:260px;
+header {
+  display: flex;
+  align-items: center;
 }
 
-header {
-  
+#AC {
+  margin-right: 1rem;
+  margin-left: 6rem;
 }
+
+#Menu {
+  display: flex;
+  margin-left: 4rem;
+  padding: 4rem;
+}
+
+#Menu h1 {
+  margin-right: 9rem;
+  font-family: Inter;
+  font-size: 2.4rem;
+  font-weight: 40rem;
+  line-height: 3.4rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 
 .menu-side {
   display: flex;
@@ -51,29 +70,29 @@ h1 {
 footer {
   max-width: 100%;
   min-height: 94rem;
-  background-color: yellow;
-  display: flex;
+  /* background-color: yellow; */
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 2rem;
-  justify-content: center;
   align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 44rem));
+  grid-template-rows: repeat(2, minmax(0, 44rem));
+  gap: 4rem;
+  justify-content: space-between;
+  align-content: center;
 }
 
-/* @media (max-width: 768px) { 
+@media (max-width: 768px) { 
   footer {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 44rem));
+    grid-template-rows: repeat(3, minmax(0, 44rem));
   }
 }
 
 @media (max-width: 480px) { 
   footer {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: minmax(0, 44rem);
+    grid-template-rows: repeat(6, minmax(0, 44rem));
   }
-} */
+}

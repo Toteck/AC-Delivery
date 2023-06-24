@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Ubuntu&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,16 +8,45 @@
   font-size: 62.5%;
 }
 
+:root {
+  --cor-primaria: #1B1B1B;
+  --cor-secundaria: #FB9400;
+  --tipo-tamanho-fonte: 2rem;
+  --titulo-tamanho-fonte: 4rem;
+  --preco-tamanho-fonte: 3.2rem;
+  --promo-tamanho-fonte: 1.6rem;
+}
+
 .produto {
   display: flex;
   flex-direction: column;
   border-radius: 2.4rem;
-  border: 1px solid red;
   
+
+  font-family: 'Inter', sans-serif;
   
   max-width: 44rem;
   height: 44rem;
   background-color: #fff;
+  box-shadow: 0px 24px 40px 0px rgba(0, 0, 0, 0.16);
+}
+
+.produto .descricao_hamburguer .tipo {
+  font-weight: 500;
+  color: var(--cor-primaria);
+  font-size: var(--tipo-tamanho-fonte);
+}
+
+.produto .descricao_hamburguer .titulo {
+  font-weight: 700;
+  color: var(--cor-primaria);
+  font-size: var(--titulo-tamanho-fonte);
+}
+
+.produto .descricao_hamburguer .preco {
+  font-weight: 600;
+  color: var(--cor-secundaria);
+  font-size: var(--preco-tamanho-fonte);
 }
 
 .produto .imagem_hamburguer {
@@ -22,7 +54,24 @@
   height: 50%;
   border-top-right-radius: 2.4rem;
   border-top-left-radius: 2.4rem;
+  display: flex;
+  justify-content: center;
+  padding: 3.2rem;
 }
+
+.produto .imagem_hamburguer #promocao {
+  color: #fff;
+  min-width: 11.9rem;
+  height: 4.5rem;
+  border-radius: 0.8rem;
+  font-size: var(--promo-tamanho-fonte);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor-secundaria);
+  
+}
+
 .produto .imagem_hamburguer #podrao {
     object-fit: contain;
     width: 26rem;
@@ -34,4 +83,5 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 3.2rem;
 }
