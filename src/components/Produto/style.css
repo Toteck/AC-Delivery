@@ -90,6 +90,19 @@
     margin: 0 8.9rem;
 }
 
+@media (max-width: 480px) {
+
+  .produto {
+    width: 80vw;
+  }
+  
+  .produto .imagem_hamburguer #podrao {
+    margin: 0;
+  }
+  
+}
+
+
 .produto .descricao_hamburguer {
   height: 50%;
   display: flex;

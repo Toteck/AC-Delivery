@@ -80,16 +80,31 @@ footer {
   align-content: center;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) { /* Tablet */
   footer {
     grid-template-columns: repeat(2, minmax(0, 44rem));
     grid-template-rows: repeat(3, minmax(0, 44rem));
   }
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) { /* Mobile */
+
+  header {
+    display: none;
+  }
+  
+  .container {
+    width: 100vw;
+  }
+  
   footer {
-    grid-template-columns: minmax(0, 44rem);
-    grid-template-rows: repeat(6, minmax(0, 44rem));
+    /* grid-template-columns: minmax(0, 44rem); */
+    /* grid-template-columns: 44rem;
+    grid-template-rows: repeat(6, minmax(0, 44rem)); */
+    display: flex;
+    flex-flow: column-reverse;
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-wrap: wrap;*/
   }
 }
