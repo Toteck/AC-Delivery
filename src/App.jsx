@@ -1,7 +1,8 @@
 import './App.css'
 import {Button} from './components/Button'
-import Logos from "./Logos/AC.png";
+import Logos from "./Logos/AC.png"
 import {Produto} from "./components/Produto"
+
 
 
 export default function App() {
@@ -19,7 +20,7 @@ export default function App() {
       </header>
       <div className='menu-side'>
       <div className='menu-left'>
-        <h1>Menu esquerdo</h1>
+        <h1>Menu esquerda</h1>
       </div>
       <div className='menu-right'>
         <h1>Menu direita</h1>

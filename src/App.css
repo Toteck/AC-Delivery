@@ -20,24 +20,21 @@ header {
 }
 
 #AC {
-  margin-right: 1rem;
-  margin-left: 6rem;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 #Menu {
   display: flex;
-  margin-left: 4rem;
-  padding: 4rem;
+  margin-left: 3%;
+  padding: 1.9%;
+  gap: 3%;
 }
 
 #Menu h1 {
-  margin-right: 9rem;
+  margin-right: 10%;
   font-family: Inter;
   font-size: 2.4rem;
-  font-weight: 40rem;
-  line-height: 3.4rem;
-  letter-spacing: 0em;
-  text-align: left;
 }
 
 

@@ -29,6 +29,11 @@
   height: 44rem;
   background-color: #fff;
   box-shadow: 0px 24px 40px 0px rgba(0, 0, 0, 0.16);
+  z-index: 1;
+}
+
+#promocao {
+  z-index: 2;
 }
 
 .produto .descricao_hamburguer .tipo {
@@ -56,7 +61,8 @@
   border-top-left-radius: 2.4rem;
   display: flex;
   justify-content: center;
-  padding: 3.2rem;
+  position: relative;
+  
 }
 
 .produto .imagem_hamburguer #promocao {
@@ -69,6 +75,11 @@
   justify-content: center;
   align-items: center;
   background-color: var(--cor-secundaria);
+
+  position: absolute;
+  top: 3.2rem;
+  left: 3.2rem;
+  
   
 }
 
@@ -76,6 +87,7 @@
     object-fit: contain;
     width: 26rem;
     height: 30rem;
+    margin: 0 8.9rem;
 }
 
 .produto .descricao_hamburguer {
