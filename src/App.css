@@ -19,17 +19,16 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  
+  border: 1px solid red;
 }
 header {
   display: flex;
   align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#AC {
-  margin-right: 5%;
-  margin-left: 5%;
-}
 
 #Menu {
   display: flex;
@@ -38,7 +37,7 @@ header {
   gap: 3%;
   font-family: 'Calistoga', cursive;
   color:#000000;
-
+  margin-right:15%;
 }
 
 #Menu h1 {
@@ -95,10 +94,12 @@ h1 {
 
 .menu-search {
   height: 40rem;
-  background: purple;
+  display: flex;
+  align-items: center;
   margin-bottom: 6rem;
-  background-color: #F9F9FB
+  background-color: #F9F9FB;
 }
+
 
 .menu-search #title-search {
   font-size: 3.2rem;
@@ -126,6 +127,7 @@ h1 {
 }
 
 .menu-search .container-search #icon-search {
+  display: block;
   height: 4.8rem;
   width: 4.8rem;
   background-color: var(--primary-color);
@@ -133,6 +135,10 @@ h1 {
   border-radius: 0.5rem;
   padding: 1.2rem;
   margin-left: 1.6rem;
+}
+
+.menu-search .container-search #icon-search:hover {
+  cursor: pointer;
 }
 
 .menu-search .container-search input[type='search'] {
@@ -145,6 +151,17 @@ h1 {
 .menu-search .container-search input[type='search']::placeholder {
   color: var(--second-color);
   font-size: 2.4rem;
+}
+
+.menu-search .menu-search-right .container-tipo {
+  background-color: #fff;
+  width: 44rem;
+  height: 8rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 footer {

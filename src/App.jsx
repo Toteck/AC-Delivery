@@ -30,13 +30,22 @@ export default function App() {
       </div>
       </div>
       <div className="menu-search">
-        <div>
+        <div className='menu-search-left'>
           <h1 id="title-search">Pesquise o seu<br/>Hamburguer favorito!</h1>
           <div className="container-search">
-            <div id="icon-search">
-              <a><img className="icon-search" src='src/assets/img/frame-1.svg'></img></a>
-            </div>
+            <a id="icon-search">
+              <img className="icon-search" src='src/assets/img/frame-1.svg'></img>
+            </a>
             <input type="search" placeholder="Digite o nome do Burguer"></input>
+          </div>
+        </div>
+        <div className='menu-search-right'>
+          <div className="container-tipo">
+          <label for="tipo-hamburguer"></label>
+          <select id="tipo-hamburguer" name="tipo-hamburguer">
+            <option value="tradicional">Todos os Hamburgueres</option>
+            <option value="tradicional">Tradicional</option>
+          </select> 
           </div>
         </div>
       </div>
