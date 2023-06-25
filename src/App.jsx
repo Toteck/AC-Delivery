@@ -19,15 +19,26 @@ export default function App() {
         <Button>Fazer Login</Button>
       </header>
       <div className='menu-side'>
-      <div className='menu-left'>
-        <h1>Menu esquerda</h1>
+      <div id='menu-left'>
+        <h2>😋  Perde tempo não!</h2>
+        <h1>O Hamburguer<br/> mais delicioso<br/> da Sua Cidade</h1>
+        <h3>É um fato estabelecido há muito tempo que um<br/>leitor se distrairá com o conteúdo legível de uma<br/>página ao olhar para seu layout.</h3>
+        <Button>Fazer Pedido</Button>
       </div>
       <div className='menu-right'>
         <h1>Menu direita</h1>
       </div>
       </div>
       <div className="menu-search">
-        <h1>Menu pesquisar</h1>
+        <div>
+          <h1 id="title-search">Pesquise o seu<br/>Hamburguer favorito!</h1>
+          <div className="container-search">
+            <div id="icon-search">
+              <a><img className="icon-search" src='src/assets/img/frame-1.svg'></img></a>
+            </div>
+            <input type="search" placeholder="Digite o nome do Burguer"></input>
+          </div>
+        </div>
       </div>
       <footer>
         

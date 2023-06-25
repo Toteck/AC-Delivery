@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+:root {
+  --primary-color: #F9F9FB;
+  --second-color: #979797;
 }
 
 .container {
@@ -29,12 +36,39 @@ header {
   margin-left: 3%;
   padding: 1.9%;
   gap: 3%;
+  font-family: 'Calistoga', cursive;
+  color:#000000;
+
 }
 
 #Menu h1 {
   margin-right: 10%;
   font-family: Inter;
   font-size: 2.4rem;
+}
+
+#menu-left h2{
+  font-size:2.4rem;
+  color: #979797;
+  font-family: Inter;
+  margin-top:6.9%;
+}
+#menu-left h1{
+  font-size:7.2rem;
+  font-family: Inter;
+  color:#000000;
+  margin-top:3.4%;
+}
+#menu-left h3{
+  font-size:2.4rem;
+  color: #979797;
+  font-family: Inter;
+  margin-top: 3%;
+}
+#menu-left Button{
+  margin-bottom:8%;
+  margin-left:7%;
+  margin-top:7%;
 }
 
 
@@ -62,6 +96,55 @@ h1 {
 .menu-search {
   height: 40rem;
   background: purple;
+  margin-bottom: 6rem;
+  background-color: #F9F9FB
+}
+
+.menu-search #title-search {
+  font-size: 3.2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin-bottom: 4.7rem;
+}
+
+.menu-search .container-search {
+  background-color: #fff;
+  width: 55rem;
+  height: 8rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 1.6rem;
+}
+
+.menu-search .container-search .icon-search {
+  height: 2.4rem;
+  width: 2.4rem;
+  
+}
+
+.menu-search .container-search #icon-search {
+  height: 4.8rem;
+  width: 4.8rem;
+  background-color: var(--primary-color);
+  
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  margin-left: 1.6rem;
+}
+
+.menu-search .container-search input[type='search'] {
+  border: none;
+  width: 40rem;
+  height: 3.5rem;
+  font-size: 2.4rem;
+}
+
+.menu-search .container-search input[type='search']::placeholder {
+  color: var(--second-color);
+  font-size: 2.4rem;
 }
 
 footer {
@@ -78,6 +161,7 @@ footer {
   gap: 4rem;
   justify-content: space-between;
   align-content: center;
+  padding-bottom: 47.2rem;
 }
 
 @media (max-width: 768px) { /* Tablet */
