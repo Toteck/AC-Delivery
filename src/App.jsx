@@ -45,6 +45,7 @@ export default function App() {
         </div>
       </div>
       <div className="menu-search">
+        <div className='container-menu-search'>
         <h1 id="title-search">Pesquise o seu<br />Hamburguer favorito!</h1>
         <div className='menu-search-row'>
           <div className="container-search">
@@ -55,15 +56,11 @@ export default function App() {
           </div>
           <div className="container-tipo">
             <Lista options={['Todos os Hamburgueres', 'Tradicional', 'Mexicano']} />
-            {/* <label for="tipo-hamburguer"></label>
-          <select id="tipo-hamburguer" name="tipo-hamburguer">
-            <option value="tradicional">Todos os Hamburgueres</option>
-            <option value="tradicional">Tradicional</option>
-          </select>  */}
+          
           </div>
+        
         </div>
-
-
+        </div>
       </div>
       <footer>
 
