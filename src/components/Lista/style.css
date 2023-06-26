@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+
+.custom-select {
+  border: 1px solid red;
+  background-color: gray;
+  border-radius: 0.5rem;
+  color: #979797;
+  font-size: 2.4rem;
+  font-family: Inter;
+
+  width: 44rem;
+  height: 8rem;
+  padding-left: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  cursor: pointer;
+
+}
+
+.custom-select .select-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8.4rem;
+  position: relative;
+}
+
+.custom-select .select-header .selected-option {
+  font-size: 2.4rem;
+  
+  display: flex;
+  width: 28rem;
+  height: 3.4rem;
+}
+
+/* .custom-select .select-header .select-icon {
+} */
+
+.custom-select .options-list {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style: none;
+  top: 100%;
+  width: 100%;
+  
+}
+
+.custom-select .options-list li {
+  font-size: 2.4rem;
+  padding: 1rem;
+}
+
+.custom-select .options-list li:hover {
+  background-color: #f1f1f1; 
+}
