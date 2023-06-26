@@ -3,6 +3,10 @@ import { Button } from './components/Button'
 import Logos from "./Logos/AC.png"
 import { Produto } from "./components/Produto"
 import { Lista } from "./components/Lista"
+import burger from "./Logos/burger/burger.png"
+import pessoa from "./Logos/freme/pessoa.png"
+import bolsa from "./Logos/freme/bolsa.png"
+import local from "./Logos/freme/local.png"
 
 
 
@@ -26,8 +30,18 @@ export default function App() {
           <h3>É um fato estabelecido há muito tempo que um<br />leitor se distrairá com o conteúdo legível de uma<br />página ao olhar para seu layout.</h3>
           <Button>Fazer Pedido</Button>
         </div>
-        <div className='menu-right'>
-          <h1>Menu direita</h1>
+        <div id='menu-right'>
+          <img id="burger" src={burger} alt="Logo do site" />
+          <div id="freme">
+          <img id="pessoa" src={pessoa} alt="pessoa" />
+            <h1>Logou</h1>
+          <img id="bolsa" src={bolsa} alt="bolsa" />
+            <h1>Pediu</h1>
+          <img id="local" src={local} alt="local" />
+            <h1>Chegou</h1>
+          </div>
+          
+          
         </div>
       </div>
       <div className="menu-search">

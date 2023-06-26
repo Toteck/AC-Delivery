@@ -19,7 +19,7 @@ export function Lista({options}) {
       
       <div className="select-header" onClick={toggleOptionsList}>
         <span className="selected-option">{selectedOption}</span>
-        <span className="select-icon">&#9660;</span>
+        <span className="select-icon"><img src='src/assets/img/frame.svg'/></span>
       {isOpen && (
       <ul className="options-list">
           {options.map((option, index) => (
