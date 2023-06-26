@@ -13,16 +13,22 @@ import local from "./Logos/freme/local.png"
 export default function App() {
   return (
     <div className='container'>
-      <header>
-        <img id="AC" src={Logos} alt="Logo do site" />
-        <div id="Menu">
-          <h1>Início</h1>
-          <h1>Burgers</h1>
-          <h1>Serviços</h1>
-          <h1>Contato</h1>
+      <div className='header'>
+        <div className="logo">
+          <a>
+            <img id="AC" src={Logos} alt="Logo do site" />
+          </a>
+        </div>
+        <div id="menu">
+          <ul className='container-menu'>
+            <a><li>Início</li></a>
+            <a><li>Burgers</li></a>
+            <a><li>Serviços</li></a>
+            <a><li>Contato</li></a>
+          </ul>
         </div>
         <Button>Fazer Login</Button>
-      </header>
+      </div>
       <div className='menu-side'>
         <div id='menu-left'>
           <h2>😋  Perde tempo não!</h2>
