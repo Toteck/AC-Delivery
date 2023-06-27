@@ -294,6 +294,11 @@ footer {
 }
 
 @media (max-width: 1440px) {
+
+  .header {
+    max-width: 95%;
+  }
+  
   .menu-search .container-menu-search {
     width: 90%;
   }
@@ -339,8 +344,17 @@ footer {
 
 @media (max-width: 820px) {
 
+  .header {
+    flex-direction: column;
+    border: 1px solid red;
+    height: 100%;
+    padding: 5rem 0 5rem 0;
+    gap: 5rem 0;
+  }
+
   .menu-search #title-search {
     align-self: center;
+    text-align: center;
   }
   
   
