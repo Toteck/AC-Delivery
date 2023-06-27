@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.h .sombra {
+  border: 1px solid red;
+  width: 30.396rem;
+  height: 81.943rem;
+  transform: rotate(93.242deg);
+  flex-shrink: 0;
+
+  border-radius: 81.943rem;
+  background: radial-gradient(33.63% 33.63% at 32.27% 49.97%, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.00) 100%);
+}

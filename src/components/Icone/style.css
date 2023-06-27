@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Ubuntu&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 .container-icone {
@@ -10,15 +13,19 @@
   gap: 0 2.6rem;
 }
 
+
 .container-icone .description {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   
 }
 
 .container-icone .description .titulo {
   margin-bottom: 2.4rem;
+  font-size: 2.4rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
 .container-icone .description .linha {

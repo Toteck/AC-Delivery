@@ -5,7 +5,7 @@ import { Produto } from "./components/Produto";
 import { Lista } from "./components/Lista";
 import { Header } from "./components/Header";
 import { Icone } from "./components/Icone";
-
+import { Hamburgao } from "./components/Hamburgao";
 import burger from "./Logos/burger/burger.png";
 import pessoa from "./Logos/freme/pessoa.png";
 import bolsa from "./Logos/freme/bolsa.png";
@@ -58,7 +58,7 @@ export default function App() {
         </div>
         <div className="menu-right">
           <div className="hamburguer">
-            <img id="burger" src={burger} alt="Logo do site" />
+            <Hamburgao caminho={'./src/assets/img/burger-login-1.png'} />
           </div>
 
           <div className="container-icones">
@@ -71,13 +71,13 @@ export default function App() {
               />
               <Icone
                 icon={"./src/assets/img/frame-3.svg"}
-                titulo={"Logou"}
+                titulo={"Pediu"}
                 linha_1={"src/assets/img/line-6.svg"}
                 linha_2={"src/assets/img/line-7.svg"}
               />
               <Icone
                 icon={"./src/assets/img/frame-2.svg"}
-                titulo={"Logou"}
+                titulo={"Chegou"}
                 linha_1={"src/assets/img/line-6.svg"}
                 linha_2={"src/assets/img/line-7.svg"}
               />

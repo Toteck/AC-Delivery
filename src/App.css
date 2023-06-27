@@ -147,7 +147,7 @@
 
 .menu-side .menu-right .hamburguer {
   border: 4px solid #0337fb;
-  width: 75%;
+  width: 60%;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -155,13 +155,23 @@
   align-self: end;
   
   top: 9.2rem;
-  left: -8rem;
+  left: -7rem;
   position: relative;
   /* background-image: url('src/assets/img/ellipse-11.svg');
   background-repeat: no-repeat;
   background-size: cover; */
   
 }
+
+/* .menu-side .menu-right .sombra {
+  width: 30.396rem;
+  height: 81.943rem;
+  transform: rotate(93.242deg);
+  flex-shrink: 0;
+
+  border-radius: 81.943rem;
+  background: radial-gradient(33.63% 33.63% at 32.27% 49.97%, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.00) 100%);
+} */
 
 .menu-side .menu-right .hamburguer #burger {
   background-image: url('src/assets/img/ellipse-11.svg');
@@ -170,16 +180,19 @@
 }
 
 .menu-side .menu-right .container-icones {
-  border: 1px solid red;
-  width: 25%;
+  /* border: 1px solid red; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   
 }
 
 .menu-side .menu-right .container-icones .icones {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid red;
-    gap: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  gap: 5rem;
 }
 
 h1 {
