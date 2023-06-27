@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,13 +7,11 @@
   font-size: 62.5%;
 }
 
-
-
 .button {
   width: 20rem;
   height: 6rem;
-  background-color: #FB9400;
-  font-family: 'Inter', sans-serif;
+  background-color: #fb9400;
+  font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
   color: #fff;
@@ -26,4 +23,3 @@
   cursor: pointer;
   transform: scale(1.05);
 }
-

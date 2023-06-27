@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Ubuntu&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Ubuntu&display=swap");
 
 * {
   margin: 0;
@@ -9,8 +8,8 @@
 }
 
 :root {
-  --cor-primaria: #1B1B1B;
-  --cor-secundaria: #FB9400;
+  --cor-primaria: #1b1b1b;
+  --cor-secundaria: #fb9400;
   --tipo-tamanho-fonte: 2rem;
   --titulo-tamanho-fonte: 4rem;
   --preco-tamanho-fonte: 3.2rem;
@@ -21,10 +20,9 @@
   display: flex;
   flex-direction: column;
   border-radius: 2.4rem;
-  
 
-  font-family: 'Inter', sans-serif;
-  
+  font-family: "Inter", sans-serif;
+
   max-width: 44rem;
   height: 44rem;
   background-color: #fff;
@@ -60,14 +58,13 @@
 }
 
 .produto .imagem_hamburguer {
-  background-color: #FFF9F2;
+  background-color: #fff9f2;
   height: 50%;
   border-top-right-radius: 2.4rem;
   border-top-left-radius: 2.4rem;
   display: flex;
   justify-content: center;
   position: relative;
-  
 }
 
 .produto .imagem_hamburguer #promocao {
@@ -84,29 +81,24 @@
   position: absolute;
   top: 3.2rem;
   left: 3.2rem;
-  
-  
 }
 
 .produto .imagem_hamburguer #podrao {
-    object-fit: contain;
-    width: 26rem;
-    height: 30rem;
-    margin: 0 8.9rem;
+  object-fit: contain;
+  width: 26rem;
+  height: 30rem;
+  margin: 0 8.9rem;
 }
 
 @media (max-width: 480px) {
-
   .produto {
     width: 80vw;
   }
-  
+
   .produto .imagem_hamburguer #podrao {
     margin: 0;
   }
-  
 }
-
 
 .produto .descricao_hamburguer {
   height: 50%;
