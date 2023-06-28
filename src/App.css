@@ -149,7 +149,7 @@
 }
 
 .menu-side .menu-right .hamburguer {
-  border: 4px solid #0337fb;
+  
   width: 60%;
   display: flex;
   align-items: end;
@@ -157,7 +157,7 @@
 
   align-self: end;
   
-  top: 9.2rem;
+  top: 24.2rem;
   left: -7rem;
   position: relative;
   /* background-image: url('src/assets/img/ellipse-11.svg');
