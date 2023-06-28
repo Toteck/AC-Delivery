@@ -158,6 +158,7 @@ export default function App() {
           preco={"25,50"}
         />
       </footer>
+      <span id="assign">Created by Mateus and Josué</span>
     </div>
   );
 }
