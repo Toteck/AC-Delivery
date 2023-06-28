@@ -50,3 +50,11 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 480px) {
+  
+  .container-icone {
+      justify-content: space-evenly;
+  }
+  
+}

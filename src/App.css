@@ -343,6 +343,36 @@ footer {
     max-width: 95%;
   }
 
+  .menu-side .menu-left {
+    padding: 0 5rem;
+  }
+
+  .menu-left h1 {
+    font-size: 6.2rem;
+    font-family: Inter;
+    color: #000000;
+    margin-bottom: 4.7rem;
+  }
+
+  .menu-left h3 {
+    font-size: 2.2rem;
+    color: #979797;
+    font-family: Inter;
+    margin-bottom: 4.9rem;
+  }
+
+  .menu-side .menu-right .hamburguer {
+    border: 4px solid #0337fb;
+    width: 60%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    align-self: end;
+    top: 22.2rem;
+    left: -7rem;
+    position: relative;
+}
+
   .menu-search .container-menu-search {
     width: 90%;
   }
@@ -369,8 +399,20 @@ footer {
     margin-bottom: 4.7rem;
   }
 
+  .menu-side .menu-right .hamburguer {
+    border: 4px solid #0337fb;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    align-self: end;
+    top: 0.0rem;
+    left: -3rem;
+    position: relative;
+  }
+
   .menu-left h3 {
-    font-size: 2.0rem;
+    font-size: 2.7rem;
     color: #979797;
     font-family: Inter;
     margin-bottom: 4.9rem;
@@ -444,14 +486,14 @@ footer {
   }
 
   .menu-left h1 {
-    font-size: 5.2rem;
+    font-size: 3.2rem;
     font-family: Inter;
     color: #000000;
     margin-bottom: 4.7rem;
   }
 
   .menu-left h3 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: #979797;
     font-family: Inter;
     margin-bottom: 4.9rem;
@@ -530,6 +572,45 @@ footer {
   #menu .container-menu {
     flex-direction: column;
     gap: 2rem 0;
+  }
+
+  .menu-side .menu-left {
+    padding: 0 2rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .menu-side .menu-right {
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+  .menu-side {
+    display: flex;
+    max-width: 140rem;
+    border: 1px solid red;
+    flex-direction: column;
+  }
+
+  .menu-side .menu-left {
+      padding: 0 2rem;
+      text-align: center;
+  }
+    
+  .menu-left h1 {
+      font-size: 4.2rem;
+      font-family: Inter;
+      color: #000000;
+      margin-bottom: 4.7rem;
+  }
+
+  .menu-left h3 {
+      font-size: 2.4rem;
+      color: #979797;
+      font-family: Inter;
+      margin-bottom: 4.9rem;
   }
 
   .menu-search .container-search {
