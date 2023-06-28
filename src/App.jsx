@@ -60,7 +60,7 @@ export default function App() {
         <div className="menu-right">
           <div className="hamburguer">
             {/* <Hamburgao caminho={'src/assets/img/hamburgao.svg'} /> */}
-            <Hamburgao caminho={hamburgao} />
+            <Hamburgao caminho={Logos} />
           </div>
 
           <div className="container-icones">
