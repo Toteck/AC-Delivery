@@ -80,6 +80,8 @@
   font-size: 2.4rem;
 } */
 
+
+
 .menu-left h2 {
   font-size: 2.4rem;
   color: #979797;
@@ -137,6 +139,7 @@
 
 .menu-left {
   width: 50%;
+  padding: 0 1rem;
 }
 
 .menu-side .menu-right {
@@ -359,6 +362,44 @@ footer {
     max-width: 100%;
   }
 
+  .menu-left h1 {
+    font-size: 6.2rem;
+    font-family: Inter;
+    color: #000000;
+    margin-bottom: 4.7rem;
+  }
+
+  .menu-left h3 {
+    font-size: 2.0rem;
+    color: #979797;
+    font-family: Inter;
+    margin-bottom: 4.9rem;
+  }
+
+  .menu-side .menu-right .container-icones {
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .menu-side .menu-right .hamburguer {
+    border: 4px solid #0337fb;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    align-self: end;
+    top: 0.0rem;
+    left: -0rem;
+    position: relative;
+}
+
+  .menu-search{
+    padding: 0 1rem;
+  }
+  
   .menu-search-row {
     flex-direction: column;
   }

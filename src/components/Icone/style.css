@@ -39,3 +39,8 @@
 
 
 
+@media screen and (max-width: 1024px) {
+  .container-icone {
+    transform: scale(0.8);
+  }
+}
