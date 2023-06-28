@@ -431,6 +431,32 @@ footer {
     gap: 5rem 0;
   }
 
+  .menu-side .menu-right .hamburguer {
+    display: none;
+  }
+
+  .menu-right .hamburguer Hamburgao{
+    display: none;
+  }
+
+  .menu-side .menu-right .container-icones {
+    width: 100%;
+  }
+
+  .menu-left h1 {
+    font-size: 5.2rem;
+    font-family: Inter;
+    color: #000000;
+    margin-bottom: 4.7rem;
+  }
+
+  .menu-left h3 {
+    font-size: 2.5rem;
+    color: #979797;
+    font-family: Inter;
+    margin-bottom: 4.9rem;
+  }
+
   .menu-search #title-search {
     align-self: center;
     text-align: center;
