@@ -7,6 +7,7 @@ import { Header } from "./components/Header";
 import { Icone } from "./components/Icone";
 import { Hamburgao } from "./components/Hamburgao";
 import hamburgao from './assets/img/burger-login-1.png'
+import frame4 from './assets/img/frame-4.svg'
 import burger from "./Logos/burger/burger.png";
 import pessoa from "./Logos/freme/pessoa.png";
 import bolsa from "./Logos/freme/bolsa.png";
@@ -60,13 +61,14 @@ export default function App() {
         <div className="menu-right">
           <div className="hamburguer">
             {/* <Hamburgao caminho={'src/assets/img/hamburgao.svg'} /> */}
-            <Hamburgao caminho={Logos} />
+            <Hamburgao caminho={hamburgao} />
           </div>
 
           <div className="container-icones">
             <div className="icones">
               <Icone
-                icon={"./src/assets/img/frame-4.svg"}
+                
+                icon={frame4}
                 titulo={"Logou"}
                 linha_1={"src/assets/img/line-6.svg"}
                 linha_2={"src/assets/img/line-7.svg"}
