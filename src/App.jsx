@@ -7,7 +7,22 @@ import { Header } from "./components/Header";
 import { Icone } from "./components/Icone";
 import { Hamburgao } from "./components/Hamburgao";
 import hamburgao from './assets/img/burger-login-1.png'
+
+import frame from './assets/img/frame.svg'
+import frame1 from './assets/img/frame-1.svg'
+import frame2 from './assets/img/frame-2.svg'
+import frame3 from './assets/img/frame-3.svg'
 import frame4 from './assets/img/frame-4.svg'
+import linha6 from './assets/img/line-6.svg'
+import linha7 from './assets/img/line-7.svg'
+
+import burger1 from './assets/img/card-burger-1-1.png'
+import burger2 from './assets/img/card-burger-1-2.png'
+import burger3 from './assets/img/card-burger-2-3.png'
+import burger4 from './assets/img/card-burger-3-1.png'
+import burger5 from './assets/img/card-burger-4-1.png'
+
+
 import burger from "./Logos/burger/burger.png";
 import pessoa from "./Logos/freme/pessoa.png";
 import bolsa from "./Logos/freme/bolsa.png";
@@ -60,7 +75,6 @@ export default function App() {
         </div>
         <div className="menu-right">
           <div className="hamburguer">
-            {/* <Hamburgao caminho={'src/assets/img/hamburgao.svg'} /> */}
             <Hamburgao caminho={hamburgao} />
           </div>
 
@@ -70,20 +84,20 @@ export default function App() {
                 
                 icon={frame4}
                 titulo={"Logou"}
-                linha_1={"src/assets/img/line-6.svg"}
-                linha_2={"src/assets/img/line-7.svg"}
+                linha_1={linha6}
+                linha_2={linha7}
               />
               <Icone
-                icon={"./src/assets/img/frame-3.svg"}
+                icon={frame3}
                 titulo={"Pediu"}
-                linha_1={"src/assets/img/line-6.svg"}
-                linha_2={"src/assets/img/line-7.svg"}
+                linha_1={linha6}
+                linha_2={linha7}
               />
               <Icone
-                icon={"./src/assets/img/frame-2.svg"}
+                icon={frame2}
                 titulo={"Chegou"}
-                linha_1={"src/assets/img/line-6.svg"}
-                linha_2={"src/assets/img/line-7.svg"}
+                linha_1={linha6}
+                linha_2={linha7}
               />
             </div>
           </div>
@@ -102,7 +116,7 @@ export default function App() {
               <a id="icon-search">
                 <img
                   className="icon-search"
-                  src="src/assets/img/frame-1.svg"
+                  src={frame1}
                 ></img>
               </a>
               <input
@@ -121,42 +135,42 @@ export default function App() {
       <footer>
         <Produto
           promocao={true}
-          caminho={"src/assets/img/card-burger-1-1.png"}
+          caminho={burger1}
           tipo={"Tradicional"}
           titulo={"Texas Burguer"}
           preco={"25,50"}
         />
         <Produto
           promocao={false}
-          caminho={"src/assets/img/card-burger-2-3.png"}
+          caminho={burger2}
           tipo={"Tradicional"}
           titulo={"Texas Burguer"}
           preco={"25,50"}
         />
         <Produto
           promocao={false}
-          caminho={"src/assets/img/card-burger-3-1.png"}
+          caminho={burger3}
           tipo={"Tradicional"}
           titulo={"Texas Burguer"}
           preco={"25,50"}
         />
         <Produto
           promocao={false}
-          caminho={"src/assets/img/card-burger-4-1.png"}
+          caminho={burger4}
           tipo={"Tradicional"}
           titulo={"Texas Burguer"}
           preco={"25,50"}
         />
         <Produto
           promocao={false}
-          caminho={"src/assets/img/card-burger-1-2.png"}
+          caminho={burger1}
           tipo={"Tradicional"}
           titulo={"Texas Burguer"}
           preco={"25,50"}
         />
         <Produto
           promocao={true}
-          caminho={"src/assets/img/card-burger-2-3.png"}
+          caminho={burger2}
           tipo={"Tradicional"}
           titulo={"Texas Burguer"}
           preco={"25,50"}

@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./style.css";
+
+
 export function Lista({ options }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState([
