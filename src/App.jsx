@@ -6,6 +6,7 @@ import { Lista } from "./components/Lista";
 import { Header } from "./components/Header";
 import { Icone } from "./components/Icone";
 import { Hamburgao } from "./components/Hamburgao";
+import hamburgao from './assets/img/burger-login-1.png'
 import burger from "./Logos/burger/burger.png";
 import pessoa from "./Logos/freme/pessoa.png";
 import bolsa from "./Logos/freme/bolsa.png";
@@ -58,7 +59,8 @@ export default function App() {
         </div>
         <div className="menu-right">
           <div className="hamburguer">
-            <Hamburgao caminho={'./src/assets/img/hamburgao.svg'} />
+            {/* <Hamburgao caminho={'src/assets/img/hamburgao.svg'} /> */}
+            <Hamburgao caminho={hamburgao} />
           </div>
 
           <div className="container-icones">
